@@ -1,0 +1,27 @@
+
+div{/*--圆边框--*/
+    border:2px turquoise;/*线框厚度和颜色*/
+    padding:20px 20px;
+    background: #eeeeee;
+    width: 300px;
+    border-radius: 25px;/*边框弧度*/
+}
+
+div
+{
+    border:15px solid transparent;
+    width:250px;
+    padding:10px 20px;
+}
+#round
+{
+    -webkit-border-image:url(centerborder.png) 30 30 round; /* Safari 5 and older */
+    -o-border-image:url(centerborder.png) 30 30 round; /* Opera */
+    border-image:url(centerborder.png) 30 30 round;
+}
+#stretch
+{
+    -webkit-border-image:url(iconsprite.png) 30 30 stretch; /* Safari 5 and older */
+    -o-border-image:url(iconsprite.png) 30 30 stretch; /* Opera */
+    border-image:url(iconsprite.png) 30 30 stretch;
+}

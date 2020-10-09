@@ -1,0 +1,22 @@
+/*通用设置，边距清0*/
+body,ul,li,form,input,a,img,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+div{
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: thin;
+}
+body{
+    font-family:Slabo27px-Regular;
+}
+@font-face {
+    font-family:Slabo27px-Regular;
+    src:url("../font/Slabo27px-Regullar.ttf") ;
+}
+html{
+    font-family: Slabo27px-Regular;
+    font-size: 14px;
+}
+/*通用设置end*/

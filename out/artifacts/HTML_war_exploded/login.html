@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <style type="text/css">
+        .top{
+            width:1400px;
+            height: 70px;
+            background:lightgoldenrodyellow;
+            position: fixed;
+            top:0;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        div ul li{
+            float: left;
+            list-style-type:none;
+        }
+        div ul li a{
+            display: block;
+            width: 200px;
+            height:70px;
+            text-align:center;
+            line-height: 70px;
+            text-decoration: #062c33;
+        }
+    </style>
+</head>
+<body>
+<div class="" >
+    <body style="background-color:papayawhip" >
+    <div class="top">
+        <ul class="nav justify-content-center">
+            <li><a style="font-size:small;text-decoration:none;text-align:center" href="register.html">注册</a></li>
+            <li><a style="font-size:small;text-decoration:none;text-align:center" href="login.html">登录</a></li>
+            <li><a style="font-size:larger;text-decoration:black" href="main.html">首页</a></li>
+            <li><a style="font-size:larger;text-decoration:black" href="#">相册</a></li>
+            <li><a style="font-size:larger;text-decoration:black" href="#">视频</a></li>
+            <li><a style="font-size:larger;text-decoration:black" href="#">动态</a></li>
+            <li><a style="font-size:larger;text-decoration:black" href="#">我的</a></li>
+        </ul>
+    </div>
+    <div style="margin-top:150px" >
+        <h1 style="text-align:center;font-family:arial;size:B5">用户登录</h1>
+        <br/>
+        <td colspan="2">
+            <div align="center">
+                <form action=""><!--点击"提交"按钮时，无动作”。-->
+                    <style type="text/css">
+                        label {
+                            display: inline-block;
+                            float: contour ;
+                            width: 100px;
+                            height: 40px;
+                            text-align:right ;
+                        }
+                    </style>
+                    <label>用户名：</label>
+                    <input type="text" name="name" >
+                    <br/>
+                    <label>密码：</label>
+                    <input type="password" name="password">
+                    <br/>
+                    <tr>
+                        <td style="text-align:left;font-size:small ">
+                            <a style="text-decoration:none;" href="register.html">立即注册</a>
+                        </td>
+                        <td style="text-align:right;font-size:small" >忘记密码？</td>
+                    </tr>
+                    <br/><br/>
+                    <input type="submit" name="submit1" value="登录">
+                </form>
+            </div>
+        </td>
+    </div>
+</div>
+</body>
+</html>
